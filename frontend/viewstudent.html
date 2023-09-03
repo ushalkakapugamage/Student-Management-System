@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>View Students</title>
+    <link rel="stylesheet" href="styles/viewStyles.css">
+</head>
+
+<body>
+    <main class="table_student">
+        <section class="table__header">
+            <h1>Student Data</h1>
+        </section>
+        <section class="table__body">
+            <table>
+                <thead>
+                    <tr class="tbl_heading">
+                        <th>ID</th>
+                        <th>Student Name</th>
+                        <th>Contact Number</th>
+                        <th>Email</th>
+                    </tr>
+                </thead>
+                <tbody id="tbl-student">
+                    <!-- Table rows will be inserted here by JavaScript -->
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+
+
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="modal-content"></div>
+        </div>
+    </div>
+
+
+
+    <script src="js/view.js"></script>
+</body>
+
+</html>

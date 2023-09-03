@@ -1,0 +1,58 @@
+/* Reset default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background: rgb(42, 52, 57);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Container styles */
+.container {
+    text-align: center;
+}
+
+/* Card styles */
+.card {
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    border-radius: 10px;
+    width: 500px;
+}
+
+.card h1 {
+    color: #000000;
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+
+/* Button styles */
+.btn {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    background-color: rgb(59, 68, 75);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color:rgb(76, 88, 102);
+}
+
+.indexImg{
+    width: 500px;
+    padding-bottom: 40px;
+}
+
+/* Add styles for other elements as needed */
